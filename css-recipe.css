@@ -1,0 +1,314 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    font-size: 15px;
+    line-height: 22px;
+    position: relative;
+ 
+}
+
+.container {
+    width: 100%;
+    min-height: 100%;
+    height: auto !important;
+    margin: 0 auto -50px;
+}
+
+
+header {
+    background-color: #4c5fab;
+    color: white;
+    height: 20%;
+    width: 100%;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.circle {
+    margin-right: 30px;
+    margin-left: 20px;
+    float: left;
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+    background-color: #e1e3e6;
+    
+}
+
+.name {
+    float: left;
+    max-width: 50%;
+    margin: 50px;
+}
+
+
+h1 {
+    width: 977px;
+    font-size: 39px;
+    letter-spacing: 2px;
+    line-height: 70px;
+    color: #ffffff;;
+    font-weight: 700;
+    margin-bottom: -5px;
+}
+
+h2 {
+    font-size: 26px;
+    line-height: 49px;
+    color: #1c2123;
+    font-weight: 600;
+    margin: 0px 20px;
+}
+
+.name p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: -5px;   
+    font-family: "Open sans"
+}
+
+
+ul {
+    list-style: none;
+}
+ 
+.contact {
+    float: right;
+    max-width: 18%;
+    
+    margin: 40px;
+}
+
+.contact ul {
+    width: 100%;
+    margin-top: 2px;
+    padding: 20px;
+}
+
+.contact li {
+    margin-top: 5px;
+    position: relative;
+}
+
+.contact li:nth-child(3) {
+    margin-bottom: 15px;
+}
+
+main {
+    clear: both;   
+    overflow: auto;
+    line-height: 30px;
+    width: 100%;
+    margin: 0;
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        
+        color-stop(0, #eee),
+        color-stop(35%, #eee),
+        color-stop(35%, rgb(255, 255, 255)),
+        color-stop(100%, #eee)
+    );   }
+
+.about {
+    float: left;
+    width: 35%;
+    padding: 45px;
+    color: black;
+}
+
+.portfolio {
+    float: right;
+    width: 65%;
+    padding: 45px;
+}
+
+.content   {
+    margin: 30px;
+}
+
+.profile {
+    margin-bottom: 30px;
+}
+
+.interests {
+    margin-bottom: 30px;
+}
+
+.reference {
+    margin-bottom: 30px;
+}
+
+.awards {
+    margin-bottom: 30px;
+}
+.icon-background1 {
+    color: #4c5fab;
+}
+
+.icon-inside1 {
+    color:white; 
+}
+
+.icons { 
+    margin-left: -50px;
+    margin-bottom: 10px;
+}
+
+.icons li {
+    display: inline;
+    align-content: center;
+    margin-right: 10px;  
+}
+
+.icon-background2, .icon-inside2 {
+    color: #4c5fab; 
+}
+
+.interests-list {
+    margin-left: -50px;
+}
+
+.interests-list li {
+    display: inline;
+    font-weight: 600;
+    text-align: center;
+    margin: 15px;
+}
+
+.reference-contacts {
+    margin-left: -40px;
+}
+
+.reference-list {
+    position: relative;
+    margin: 0;
+    padding-bottom: 1em;
+    padding-left: 20px;
+    margin-left: 70px;   
+}
+
+
+.reference-list:before {
+    content: '';
+    background-color:#c7c7c7;
+    position: absolute;
+    bottom: 65px;
+    top: 50px;
+    left: -8px;
+    width: 1px;
+}
+
+.reference-name:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f192";
+    color: #adadad;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: -15px;
+}
+
+.reference-list :nth-child(3n-3) {
+    margin-top: -15px;
+}
+
+.reference-name {
+    color: #4c5fab;
+    font-weight: 600;
+    margin: 0;
+    position: relative;
+    padding-bottom: 1em;
+    padding-left: 20px;
+    margin-left: -20px;
+}
+
+.reference .ceo {
+    margin-bottom: 20px;
+}
+
+.awards-list {
+    font-weight: 600;
+    margin-left: -40px;
+}
+
+.portfolio-icon {
+    margin-left: -30px;
+    margin-right: 10px;
+}
+
+figure {
+    margin: 2%;
+    align-content: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.cards {
+    width: 40%;
+    display: inline-block;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 10px gray;
+    transition: 0.5 ease;
+    cursor: pointer;
+    height: 100%;
+}
+
+figure .image {
+    width: 100%;
+}
+
+.card-info {
+   color: black;
+   margin-top: 20px;
+   padding-bottom: 20px;
+}
+
+.cards h3, .cards p {
+    margin: -3px;
+}
+.cards h3 {
+    font-weight: 600;
+} 
+
+.cards:hover {
+    box-shadow: 5px 5px 15px gray;
+    transform: scale(1,1);
+}
+
+.footer, .push {
+    height: 50px;
+}
+
+.footer div {
+    margin-left: 55px;
+}
+
+main:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.push {
+    height: 50px;
+}
+
+.footer-contact {
+    font-weight: 600;
+}
+.footer {  
+    width: 100%; 
+    height: 50px; 
+    background-color: #4c5fab; 
+    color: white;
+    line-height: 50px;
+}
