@@ -7,3 +7,5 @@ A simple layout used with pure CSS suitable for a resume/CV portfolio. This proj
 - HTML
 - Pure CSS **No flexbox or Grid were allowed**
 - VSCode
+
+## View [Live](https://codepen.io/laura-rodd/full/jObVjpN)
